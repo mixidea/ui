@@ -1,0 +1,21 @@
+.c-comment {
+    margin-bottom: 42px;
+
+    &__icon {
+        margin-right: 7px;
+        margin-bottom: 14px;
+    }
+
+    &__name {
+        font-family: 'Merriweather', serif;
+    }
+
+    &__like {
+        float: right;
+        margin-top: 35px;
+    }
+
+    &__body {
+        font-family: 'Merriweather', serif;
+    }
+}

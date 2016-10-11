@@ -1,0 +1,32 @@
+.p-header {
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: $brand-color-secondary;
+
+    &__inner {
+        position: relative;
+        max-width: 980px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    &__logo {
+        display: block;
+        margin-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25px;
+        height: auto;
+    }
+
+    @include media-breakpoint-up(sm) {
+        height: 140px;
+
+        &__logo {
+            margin-top: 21px;
+            width: 50px;
+        }
+    }
+}
