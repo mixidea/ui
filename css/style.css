@@ -1467,6 +1467,13 @@ a {
     margin-top: 35px; }
   .c-comment__body {
     font-family: 'Merriweather', serif; }
+  .c-comment.is-small .c-comment__icon {
+    margin-bottom: 7px; }
+  .c-comment.is-small .c-icon {
+    width: 21px;
+    height: 21px; }
+  .c-comment.is-small .c-comment__like {
+    margin-top: 7px; }
 
 .c-icon {
   width: 49px;

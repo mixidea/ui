@@ -18,4 +18,17 @@
     &__body {
         font-family: 'Merriweather', serif;
     }
+
+    &.is-small &__icon {
+        margin-bottom: 7px;
+    }
+
+    &.is-small .c-icon {
+        width: 21px;
+        height: 21px;
+    }
+
+    &.is-small &__like {
+        margin-top: 7px;
+    }
 }
