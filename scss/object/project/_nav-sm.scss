@@ -1,5 +1,4 @@
 .p-nav-sm {
-    margin-top: 7px;
     background-color: darken($brand-color, 5%);
     box-shadow: 0px 2px 3.84px 0.16px rgba(83, 83, 83, 0.29);
 
@@ -39,7 +38,7 @@
         }
     }
 
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(md) {
         display: none;
     }
 }

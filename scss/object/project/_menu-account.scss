@@ -1,13 +1,12 @@
 .p-menu-account {
     display: none;
     position: absolute;
-    top: 28px;
+    top: 7px;
     right: 14px;
 
     &__notify {
         position: relative;
         display: inline-block;
-        top: 4px;
         margin-right: 7px;
         width: 35px;
         height: 35px;
@@ -40,7 +39,6 @@
 
     &__icon {
         position: relative;
-        top: 4px;
         > img {
             width: 41px;
             height: 41px;

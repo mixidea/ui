@@ -1349,10 +1349,6 @@ a {
   position: fixed;
   top: 0;
   z-index: 100; }
-  @media (min-width: 544px) {
-    #header {
-      position: absolute;
-      z-index: 0; } }
 
 .l-footer {
   min-height: 56px;
@@ -1366,9 +1362,9 @@ a {
 
 #main {
   margin-top: 91px; }
-  @media (min-width: 544px) {
+  @media (min-width: 768px) {
     #main {
-      margin-top: 105px; } }
+      margin-top: 77px; } }
 
 .l-container {
   padding-left: 15px;
@@ -1503,47 +1499,40 @@ a {
   height: 163px; }
 
 .p-header {
+  position: fixed;
+  top: 0;
   width: 100%;
-  background-color: #0288d1; }
-  .p-header__inner {
-    position: relative;
-    padding-top: 7px;
-    padding-bottom: 4px;
-    max-width: 980px;
-    margin-right: auto;
-    margin-left: auto; }
+  background-color: #0288d1;
+  box-shadow: 0px 2px 3.84px 0.16px rgba(83, 83, 83, 0.29); }
   .p-header__logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: auto; }
   .p-header__logo.is-xs {
+    margin-top: 8px;
+    margin-bottom: 10px;
     width: 95px; }
   .p-header__logo.is-sm {
     display: none; }
-  @media (min-width: 544px) {
+  @media (min-width: 768px) {
     .p-header {
-      position: absolute;
-      top: 0;
-      height: 140px; }
-      .p-header__inner {
-        padding-top: 21px;
-        padding-bottom: 0; }
+      height: 56px; }
       .p-header__logo.is-sm {
+        margin-top: 8px;
         display: block;
-        width: 50px; }
+        width: 27px; }
       .p-header__logo.is-xs {
         display: none; } }
 
 .p-menu-account {
   display: none;
   position: absolute;
-  top: 28px;
+  top: 7px;
   right: 14px; }
   .p-menu-account__notify {
     position: relative;
     display: inline-block;
-    top: 4px;
     margin-right: 7px;
     width: 35px;
     height: 35px;
@@ -1567,8 +1556,7 @@ a {
     font-size: .7rem;
     background-color: #ef5350; }
   .p-menu-account__icon {
-    position: relative;
-    top: 4px; }
+    position: relative; }
     .p-menu-account__icon > img {
       width: 41px;
       height: 41px;
@@ -1580,7 +1568,6 @@ a {
       display: block; } }
 
 .p-nav-sm {
-  margin-top: 7px;
   background-color: #0278b8;
   box-shadow: 0px 2px 3.84px 0.16px rgba(83, 83, 83, 0.29); }
   .p-nav-sm__items {
@@ -1608,7 +1595,7 @@ a {
       color: #FFF; }
     .p-nav-sm__anchor.is-active {
       border-color: #FFF; }
-  @media (min-width: 544px) {
+  @media (min-width: 768px) {
     .p-nav-sm {
       display: none; } }
 
