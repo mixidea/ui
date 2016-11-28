@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KSS Style Guide</title>
+
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="kss-assets/kss.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body id="kss-node">
+
+<div class="kss-sidebar kss-style">
+  <header class="kss-header">
+    <h1 class="kss-doc-title">KSS Style Guide</h1>
+  </header>
+  <nav class="kss-nav">
+    <ul class="kss-nav__menu">
+      <li class="kss-nav__menu-item">
+        <a class="kss-nav__menu-link" href="./">
+          <span class="kss-nav__ref">0</span
+          ><span class="kss-nav__name">Overview</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a class="kss-nav__menu-link" href="section-1.html">
+          <span class="kss-nav__ref">1</span><span class="kss-nav__name">1</span>
+        </a>
+            <ul class="kss-nav__menu-child">
+              <li class="kss-nav__menu-item">
+                <a class="kss-nav__menu-link" href="section-1.html#kssref-1-1">
+                  <span class="kss-nav__ref ">1.1</span
+                  ><span class="kss-nav__name">Button</span>
+                </a>
+              </li>
+            </ul>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a class="kss-nav__menu-link" href="section-component.html">
+          <span class="kss-nav__ref">2</span><span class="kss-nav__name">component</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<article role="main" class="kss-main">
+
+    <div id="kssref-1" class="kss-section kss-section--depth-1">
+
+      <div class="kss-style">
+        <h1 class="kss-title kss-title--level-1">
+          <a class="kss-title__permalink" href="#kssref-1">
+            <span class="kss-title__ref">
+              1
+              <span class="kss-title__permalink-hash">
+                  #1
+              </span>
+            </span>
+            1
+          </a>
+        </h1>
+
+
+      </div>
+
+
+
+    </div>
+    <section id="kssref-1-1" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-1-1">
+            <span class="kss-title__ref">
+              1.1
+              <span class="kss-title__permalink-hash">
+                  #1.1
+              </span>
+            </span>
+            Button
+          </a>
+        </h2>
+
+          <div class="kss-description">
+            <p>Button</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Examples
+          </div>
+
+            <div class="kss-modifier__default-name kss-style">
+              Default styling
+            </div>
+
+          <div class="kss-modifier__example">
+            <button class="c-btn [modifier class]">button</button>
+          </div>
+
+            <div class="kss-modifier__name kss-style">
+              .is-small
+            </div>
+            <div class="kss-modifier__description kss-style">
+              small
+            </div>
+            <div class="kss-modifier__example">
+              <button class="c-btn is-small">button</button>
+            </div>
+            <div class="kss-modifier__name kss-style">
+              .is-xs
+            </div>
+            <div class="kss-modifier__description kss-style">
+              extra small
+            </div>
+            <div class="kss-modifier__example">
+              <button class="c-btn is-xs">button</button>
+            </div>
+            <div class="kss-modifier__name kss-style">
+              .is-inverse
+            </div>
+            <div class="kss-modifier__description kss-style">
+              inverse
+            </div>
+            <div class="kss-modifier__example">
+              <button class="c-btn is-inverse">button</button>
+            </div>
+            <div class="kss-modifier__name kss-style">
+              .is-block
+            </div>
+            <div class="kss-modifier__description kss-style">
+              block level
+            </div>
+            <div class="kss-modifier__example">
+              <button class="c-btn is-block">button</button>
+            </div>
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;button class&#x3D;&quot;c-btn [modifier class]&quot;&gt;button&lt;/button&gt;</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>object/component/_btn.scss</code>, line 1
+        </div>
+
+    </section>
+</article>
+
+<!-- SCRIPTS -->
+<script src="kss-assets/kss.js"></script>
+<script src="kss-assets/scrollspy.js"></script>
+<script src="kss-assets/prettify.js"></script>
+<script>
+  prettyPrint();
+  var spy = new ScrollSpy('#kss-node', {
+    nav: '.kss-nav__menu-child > li > a',
+    className: 'is-in-viewport'
+  });
+</script>
+
+
+
+<!-- Automatically built using <a href="https://github.com/kss-node/kss-node">kss-node</a>. -->
+</body>
+</html>

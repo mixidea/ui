@@ -1,0 +1,18 @@
+.p-widget-search {
+  margin-bottom: 21px;
+
+  &__heading {
+    margin-bottom: 14px;
+    width: 100%;
+    font-weight: bold;
+    color: $brand-color;
+  }
+
+  &__form-label {
+      font-weight: bold;
+  }
+
+  &__form-group {
+    margin-bottom: 14px;
+  }
+}

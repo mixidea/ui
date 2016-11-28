@@ -1,0 +1,24 @@
+// Toast
+//
+// Notifycation Toast.
+//
+// Markup:
+// <div class="c-toast__container">
+//  <div class="c-toast">
+//    some text.
+//    <button class="c-toast__button">OK</button>
+//  </div>
+// </div>
+.c-tooast {
+    width: 140px;
+    margin-bottom: 14px;
+    background-color: #FFF;
+
+    &__container {
+        width: 140px;
+    }
+
+    &__container &:last-child {
+        margin-bottom: 0;
+    }
+}

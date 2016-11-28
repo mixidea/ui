@@ -1423,49 +1423,44 @@ a {
 .c-breadcrumb__items > .c-breadcrumb__item:last-child:after {
   content: ''; }
 
-.c-btn {
+.btn {
   display: inline-block;
   margin: 0;
-  padding: 9px 14px 9px;
+  padding: 9px 28px 9px;
   border: 1px solid #0288d1;
   border-radius: 3px;
   background-color: #0288d1;
   color: #FFF;
   font-size: 1.4em;
-  transition: background-color .2s ease-out, border-color .2s ease-out, color .2s ease-out;
-  vertical-align: middle; }
-  .c-btn:hover, .c-btn:active, .c-btn:focus, .c-btn:visited, .c-btn:link {
+  transition: background-color .2s ease-out, border-color .2s ease-out, color .2s ease-out; }
+  .btn:hover, .btn:active, .btn:focus, .btn:visited, .btn:link {
     background-color: #02679e; }
-  .c-btn.is-small {
+  .btn.is-small {
     padding-top: 4px;
     padding-bottom: 4px; }
-  .c-btn.is-xs {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    font-size: 1.2rem; }
-  .c-btn:active {
+  .btn:active {
     box-shadow: inset 0px 2px 4px 0px rgba(4, 0, 0, 0.29); }
-  .c-btn.is-inverse {
+  .btn.is-inverse {
     background-color: transparent;
     color: #0288d1; }
-  .c-btn.is-inverse:hover, .c-btn.is-inverse:active, .c-btn.is-inverse:focus, .c-btn.is-inverse:visited, .c-btn.is-inverse:link {
+  .btn.is-inverse:hover, .btn.is-inverse:active, .btn.is-inverse:focus, .btn.is-inverse:visited, .btn.is-inverse:link {
     background-color: #0288d1;
     color: #FFF; }
-  .c-btn.is-prop.is-inverse {
+  .btn.is-prop.is-inverse {
     border-color: #1ba55a;
     background-color: transparent;
     color: #1ba55a; }
-  .c-btn.is-prop.is-inverse:hover, .c-btn.is-prop.is-inverse:active, .c-btn.is-prop.is-inverse:focus, .c-btn.is-prop.is-inverse:visited, .c-btn.is-prop.is-inverse:link {
+  .btn.is-prop.is-inverse:hover, .btn.is-prop.is-inverse:active, .btn.is-prop.is-inverse:focus, .btn.is-prop.is-inverse:visited, .btn.is-prop.is-inverse:link {
     background-color: #1ba55a;
     color: #FFF; }
-  .c-btn.is-opp.is-inverse {
+  .btn.is-opp.is-inverse {
     border-color: #ef5350;
     background-color: transparent;
     color: #ef5350; }
-  .c-btn.is-opp.is-inverse:hover, .c-btn.is-opp.is-inverse:active, .c-btn.is-opp.is-inverse:focus, .c-btn.is-opp.is-inverse:visited, .c-btn.is-opp.is-inverse:link {
+  .btn.is-opp.is-inverse:hover, .btn.is-opp.is-inverse:active, .btn.is-opp.is-inverse:focus, .btn.is-opp.is-inverse:visited, .btn.is-opp.is-inverse:link {
     background-color: #ef5350;
     color: #FFF; }
-  .c-btn.is-block {
+  .btn.is-block {
     width: 100%; }
 
 .c-comment {
@@ -1519,31 +1514,6 @@ a {
 .c-heading {
   color: #0288d1;
   margin-bottom: 21px; }
-
-.c-toast {
-  width: 210px;
-  height: 49px;
-  margin-bottom: 14px;
-  box-shadow: 0px 2px 3.84px 0.16px rgba(83, 83, 83, 0.67); }
-  .c-toast__container {
-    width: 210px; }
-  .c-toast__container .c-toast:last-child {
-    margin-bottom: 0; }
-  .c-toast__button {
-    margin-top: 11px; }
-  .c-toast__icon {
-    margin-top: 9px;
-    margin-left: 7px;
-    vertical-align: middle; }
-  .c-toast__body {
-    display: inline-block;
-    margin-top: 11px;
-    margin-bottom: 0;
-    width: 100px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    vertical-align: middle; }
 
 .p-header {
   position: fixed;

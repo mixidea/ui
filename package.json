@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "watch": "npm run watch-css &&",
     "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "guide": "kss --source 'scss/' --destination 'styleguide' --css '../css/style.css'",
+    "watch:guide": "nodemon -e scss --watch \"./scss\" -x \"npm run build-css && npm run guide\""
   },
   "repository": {
     "type": "git",
@@ -18,7 +21,10 @@
   },
   "homepage": "https://github.com/mixidea/ui#readme",
   "devDependencies": {
+    "huge": "^0.1.0",
+    "kss": "^3.0.0-beta.16",
     "node-sass": "^3.10.1",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "sass-lint": "^1.10.2"
   }
 }
